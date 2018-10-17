@@ -1,4 +1,3 @@
-#python diff.py --first images/2.png --second images/1.png
 from skimage.measure import compare_ssim
 import argparse
 import imutils
@@ -23,6 +22,4 @@ for c in cnts:
 	cv2.rectangle(imageB, (x, y), (x + w, y + h), (0, 0, 255), 2)
 cv2.imshow("Original", imageA)
 cv2.imshow("Modified", imageB)
-#cv2.imshow("Diff",diff)
-#cv2.imshow("Thresh",thresh)
 cv2.waitKey(0)
