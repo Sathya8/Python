@@ -1,0 +1,5 @@
+Guys,You need to install following libariries in whichever path your python is placed:
+skimage
+argparse
+imutils
+cv2(opencv-contrib-python)
